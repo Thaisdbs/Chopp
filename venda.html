@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Venda - Chopp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Registrar Venda</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="venda.html">Registrar Venda</a></li>
+                <li><a href="estoque.html">Controle de Estoque</a></li>
+                <li><a href="relatorio.html">Relatório de Caixa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form id="vendaForm">
+            <label for="quantidade">Quantidade de Chopp (litros):</label>
+            <input type="number" id="quantidade" name="quantidade" required>
+
+            <label for="precoUnitario">Preço Unitário (R$):</label>
+            <input type="number" id="precoUnitario" name="precoUnitario" required>
+
+            <button type="submit">Registrar Venda</button>
+        </form>
+
+        <h3>Total da Venda: R$ <span id="totalVenda">0,00</span></h3>
+    </section>
+
+    <footer>
+        <p>© 2024 Controle de Caixa - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

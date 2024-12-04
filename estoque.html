@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estoque - Chopp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Controle de Estoque</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="venda.html">Registrar Venda</a></li>
+                <li><a href="estoque.html">Controle de Estoque</a></li>
+                <li><a href="relatorio.html">Relatório de Caixa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h3>Quantidade de Chopp no Estoque</h3>
+        <p id="estoqueTotal">100 Litros</p>
+        
+        <h3>Adicionar Estoque</h3>
+        <form id="adicionarEstoque">
+            <label for="quantidadeAdicionar">Quantidade a Adicionar (litros):</label>
+            <input type="number" id="quantidadeAdicionar" required>
+            <button type="submit">Adicionar ao Estoque</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Controle de Caixa - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
